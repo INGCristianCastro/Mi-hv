@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Hoja de Vida</title>
+    <style>
+        /* Estilos CSS aquí */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #3498db;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 8px;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Juan Pérez</h1>
+            <p>Desarrollador Web | Ingeniero de Sistemas</p>
+            <div class="contact-info">
+                <span>📧 juan.perez@email.com</span>
+                <span>📞 +57 300 123 4567</span>
+                <span>📍 Bogotá, Colombia</span>
+            </div>
+        </header>
+
+        <section class="section">
+            <h2>Perfil Profesional</h2>
+            <p>Desarrollador web con 3 años de experiencia en HTML, CSS, JavaScript y Python. Especializado en creación de sitios responsivos y aplicaciones web interactivas.</p>
+        </section>
+
+        <section class="section">
+            <h2>Experiencia Laboral</h2>
+            <ul>
+                <li><strong>Empresa XYZ (2022 - Presente)</strong> - Desarrollador Frontend.</li>
+                <li><strong>Empresa ABC (2020 - 2022)</strong> - Practicante de Desarrollo Web.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Educación</h2>
+            <ul>
+                <li><strong>Universidad Nacional (2016 - 2020)</strong> - Ingeniería de Sistemas.</li>
+                <li><strong>Bootcamp Desarrollo Web (2021)</strong> - Certificación en Frontend.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML5, CSS3, JavaScript</li>
+                <li>React, Python</li>
+                <li>Git, GitHub</li>
+                <li>Diseño Responsivo</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>Última actualización: Julio 2024</p>
+        </footer>
+    </div>
+</body>
+</html>
